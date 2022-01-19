@@ -1,0 +1,12 @@
+name = "cf-worker-b2-proxy"
+type = "javascript"
+zone_id = "dd7008729e07b7e5c01fc44bccad6c76"
+account_id = "9712ed01127a8156b7d3940176a0fd04"
+route = ""
+workers_dev = true
+compatibility_date = "2022-01-08"
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
